@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start" : "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "create-admin": "node scripts/createAdmin.js"
   },
@@ -22,5 +23,8 @@
     "mongodb": "^6.10.0",
     "mongoose": "^8.8.0",
     "nodemailer": "^6.9.16"
-  }
+  },
+  "engines": {
+  "node": ">=16.x"
+}
 }
